@@ -12,7 +12,7 @@ export class MenuComponent implements OnInit {
 
   dishes = DISHES;
   
-  selectedDish = Dish;
+  selectedDish : Dish;
 
     constructor() { }
 
